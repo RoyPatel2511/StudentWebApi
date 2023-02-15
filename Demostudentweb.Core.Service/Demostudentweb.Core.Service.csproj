@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demostudentweb.Core.Builder\Demostudentweb.Core.Builder.csproj" />
+    <ProjectReference Include="..\Demostudentweb.Core.Contract\Demostudentweb.Core.Contract.csproj" />
+    <ProjectReference Include="..\Demostudentweb.Infra.Contract\Demostudentweb.Infra.Contract.csproj" />
+    <ProjectReference Include="..\Demostudentweb.Infra.Repository\Demostudentweb.Infra.Repository.csproj" />
+    <ProjectReference Include="..\Demostudentweb.Shared\Demostudentweb.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
